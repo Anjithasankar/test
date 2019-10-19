@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js1/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="js1/jquery.min.js"></script>
+<link href="css/ddsmoothmenu.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "navigation", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+<script type="text/javascript" src="js1/validate.js"></script>
+</head>
+
+<body>
+<div id="main_continer">
+<div id="imgageback1">
+
+<div id="nav">
+  
+  <div id="asp">
+<h2 style="opacity:50;"><b>As<u>piration</u></b></h2>
+</div>
+<div id="navigation">
+  
+  <ul>
+<li> <a href="HOME.html">HOME</a></li>
+<li><a href="ABOUT.html">ABOUT US</a></li>
+<li><a href="SERVICES.html">SERVICES</a></li>
+<li><a href="CAUSES.html">CAUSES</a></li>
+<li><a href="BLOG.html">BLOG</a></li>
+    <li><a href="CONTACT.html">CONTACT</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="text_about"><BR /><BR />CONTACT
+</div>
+</div>
+
+<div id="contacts">
+<div id="contacts_inner">
+<ul>
+  <li><h2>Address</h2></li>
+<li><h2>ContactNumber</h2></li>
+<li><h2>Email address</h2></li>
+<li><h2>Website</h2></li>
+</ul>
+</div>
+
+<div id="message">
+  <div id="message1"></div>
+  <div id="message2">
+  
+<form name= "myform" action="ABOUT.html" onsubmit="validateForm();" method="post">
+  
+ 
+<input name="Name" type="text" placeholder="NAME" />
+<textarea name="Address" placeholder="ADDRESS"></textarea>
+<input name="Email" type="text" placeholder="EMAIL"/><br />
+<input name="Zip" type="text" placeholder="ZIP"/><br />
+<select name="Country"  placeholder="country">
+<option value="-1" selected>
+</option>
+<option value="1">USA</option>
+<option value="2">UK</option>
+<option value="3">INDIA</option>
+
+</select>
+<input name="Submit" type="submit" value="submit"/>
+</form>
+</div>
+</div>
+
+<div id="footer">
+  <div id="footer_inner">
+<div id="footer1"><h1>Aspiration</h1>
+<p> Far far away form the country,behind the moundain. They lives the blind texts </div>
+    <div id="footer2"><H1>Infomation</H1>
+    <ul>
+    <li>Donation</li>
+    <li>Privacy</li>
+    <li>Teams condition</li>
+    </ul></div>
+    <div id="footer3"><H1>Links</H1>
+    <ul>
+    <li> Home</li>
+    <li>Who we are</li>
+    <li>blog</li>
+    <li> Cause</li>
+    <li>Contacts</li>
+    </ul></div>
+  </div>
+</div>
+
+</body>
+</html>
